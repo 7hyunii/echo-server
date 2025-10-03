@@ -1,5 +1,7 @@
 # Echo Server (TypeScript)
 
+2025-2 웹응용프로그래밍 수업 중 진행한 실습입니다.
+
 ## 1. 설치
 
 ```bash
