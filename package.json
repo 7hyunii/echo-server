@@ -1,0 +1,38 @@
+{
+  "name": "@7hyunii/echo-server",
+  "private": true,
+  "description": "A template for TypeScript projects with pre-configured tooling",
+  "version": "0.0.0",
+  "author": "Seonghyeon Mun <7sonicx@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/7hyunii/echo-server"
+  },
+  "homepage": "https://github.com/7hyunii/echo-server#readme",
+  "bugs": {
+    "url": "https://github.com/7hyunii/echo-server/issues"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "engines": {
+    "node": ">=22.0"
+  },
+  "scripts": {
+    "build": "tsc --build tsconfig.build.json",
+    "prettier": "prettier --write .",
+    "test": "jest",
+    "watch": "tsc --build --watch"
+  },
+  "devDependencies": {
+    "@jest/globals": "30.1.2",
+    "@types/jest": "30.0.0",
+    "@types/node": "24.3.1",
+    "jest": "30.1.3",
+    "jest-junit": "16.0.0",
+    "prettier": "3.6.0",
+    "ts-jest": "29.4.1",
+    "ts-node": "^10.9.2",
+    "typescript": "5.9.2"
+  }
+}
